@@ -17,6 +17,7 @@
 #include <queue>
 #include <ros/ros.h>
 #include <sensor_msgs/Imu.h>
+#include <fstream> // ADDED!
 
 std::mutex m_buf;
 
